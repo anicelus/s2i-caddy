@@ -7,5 +7,5 @@
 #	https://github.com/openshift/source-to-image/blob/master/docs/builder_image.md
 #
 
-#exec caddy run --config /etc/Caddyfile
-exec caddy -quic --conf /etc/Caddyfile
+exec caddy run --config /etc/Caddyfile
+#exec caddy -quic --conf /etc/Caddyfile
