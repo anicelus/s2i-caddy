@@ -22,7 +22,7 @@
                         "name": "v2",
                         "from": {
                             "kind": "DockerImage",
-                            "name": "caddy:2.0.0-rc.3-alpine"
+                            "name": "zzrot/alpine-caddy:v0.9.5"
                         },
                         "generation": null,
                         "importPolicy": {}
@@ -77,7 +77,7 @@
                     "dockerStrategy": {
                         "from": {
                             "kind": "ImageStreamTag",
-                            "name": "alpine-caddy:v2"
+                            "name": "alpine-caddy:v0.9.5"
                         }
                     }
                 },
